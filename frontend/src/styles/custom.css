@@ -1,0 +1,4 @@
+/* compact responsive tweaks */
+.table th, .table td { white-space: nowrap; }
+.table thead.sticky-top { position: sticky; top: 64px; z-index: 5; }
+.card { border-radius: 1rem; }

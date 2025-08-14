@@ -1,0 +1,15 @@
+@use 'variables' as *;
+@use "bootstrap/scss/bootstrap";
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) auto;
+  gap: .75rem;
+}
+
+@media (max-width: 992px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+}
